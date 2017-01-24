@@ -1,0 +1,11 @@
+{
+    "angularCompilerOptions": {
+        "genDir": "compiled"
+    },
+    "include": [
+          "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
