@@ -1,3 +1,7 @@
+/**
+ * @file Busy Config
+ * @author yumao<yuzhang.lille@gmail.com>
+ */
 "use strict";
 var BusyConfig = (function () {
     function BusyConfig(config) {

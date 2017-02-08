@@ -1,3 +1,7 @@
+/**
+ * @file Busy Config
+ * @author yumao<yuzhang.lille@gmail.com>
+ */
 import { Subscription } from 'rxjs/Subscription';
 export declare class BusyConfig implements IBusyConfig {
     template: string;
