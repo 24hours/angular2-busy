@@ -32,11 +32,12 @@ import {BusyConfig} from './busy-config';
     ]
 })
 export class BusyModule {
-    static forRoot(config: BusyConfig): ModuleWithProviders {
+    static forRoot(config: any): ModuleWithProviders {
+        let busyConfig = new BusyConfig(config);
         return {
             ngModule: BusyModule,
             providers: [
-                {provide: BusyConfig, useValue: config}
+                {provide: BusyConfig, useValue: busyConfig}
             ]
         };
     }

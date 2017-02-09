@@ -21,10 +21,11 @@ var BusyModule = BusyModule_1 = (function () {
     function BusyModule() {
     }
     BusyModule.forRoot = function (config) {
+        var busyConfig = new busy_config_1.BusyConfig(config);
         return {
             ngModule: BusyModule_1,
             providers: [
-                { provide: busy_config_1.BusyConfig, useValue: config }
+                { provide: busy_config_1.BusyConfig, useValue: busyConfig }
             ]
         };
     };

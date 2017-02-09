@@ -1,4 +1,3 @@
-/// <reference types="core-js" />
 /**
  * @file Busy Config
  * @author yumao<yuzhang.lille@gmail.com>
